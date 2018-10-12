@@ -28,8 +28,8 @@ module.exports = function reading_time(options) {// eslint-disable-line camelcas
         readingTimeSeconds,
         readingTimeMinutes,
         readingTime,
-        minute = _.isString(options.hash.minute) ? options.hash.minute : '1 min read',
-        minutes = _.isString(options.hash.minutes) ? options.hash.minutes : '% min read';
+        minute = _.isString(options.hash.minute) ? options.hash.minute : '1 phút đọc',
+        minutes = _.isString(options.hash.minutes) ? options.hash.minutes : '% phút đọc';
 
     // only calculate reading time for posts
     if (!schema.isPost(this)) {
